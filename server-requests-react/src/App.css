@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  width: 89%;
+  margin-left: auto;
+}
+
+th {
+  text-decoration: underline;
+  color: rgb(29, 24, 24);
+}
+
+th,
+td {
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  text-align: start;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 25px;
+  font-size: 32px;
+}
+
+form input {
+  border: 1px solid rgb(52, 50, 50);
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 20px;
+  color: #fafafa;
+  background-color: rgb(102, 101, 197);
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+
+button:hover {
+  background-color: rgba(102, 101, 197, 0.5);
+}
